@@ -1,0 +1,131 @@
+#header {
+	background-color: whitesmoke;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: "Carrois Gothic SC", sans-serif;
+	background-color:  rgba(255, 168, 127, 0.26);
+}
+
+
+.jumbotron {
+  padding: .5rem .5rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+  margin: .5rem;
+	
+  border:1px solid blue;
+  box-shadow: 5px 5px 5px rgba(182, 4, 4, 0.7);
+  transition: box-shadow 1s; transform: 1s;
+}
+img:hover{
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.7);  
+  transform: translate(2px,2px);
+  cursor: pointer;
+	transition: box-shadow 1s;transform: 1s;
+
+}
+
+h2 {
+	color: red !important;
+	padding-top: 7px;
+}
+#addshow{
+	color: blue; 
+}
+
+#topImageL {
+	width: 22%;
+	float: left;
+	margin-left: 20px;
+}
+
+#topImageR {
+	width: 22%;
+	float: right;
+	margin-right: 20px;
+}
+
+#topImageC {
+	width: 22% ;
+	float: center;
+
+	
+}
+
+
+label {
+	font-size: 20px;
+}
+
+#show {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#netflixSearch {
+
+	margin-left: 50px;
+	text-align: center;
+	font-family: "Carrois Gothic SC", sans-serif;
+	color: blue;
+	padding-bottom: 10px;
+
+}
+
+.container{
+	display: grid;
+	
+}
+
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+	/* float: left; */
+	border:1px solid grey;
+	padding-bottom: 10px;
+	font-family: "Carrois Gothic SC", sans-serif;
+	background-color:  rgba(255, 168, 127, 0.26);
+	color: blue;
+}
+p{
+	margin-top: 0px;
+	margin-bottom: .05rem;
+}
+
+#movieArea{
+	float: right;
+	border:1px solid grey;
+	background-color:  rgba(255, 168, 127, 0.26);
+	font-family: "Carrois Gothic SC", sans-serif ;
+	color: blue;
+}
+#movieArea.img{
+	border:2px solid  red;
+} 
+.netflixGiphy {
+	padding: 5px;
+	width: 95%;
+	border:2px solid  blue;
+	
+}
+
+
+
+.footer {
+	min-height: 10%;
+	overflow: auto;
+}
+
+.footerContainer {
+	font-size: 12px;
+	padding: 10px;
+	margin-top: 5px;
+	background-color:  rgba(255, 168, 127, 0.26);
+
+}
