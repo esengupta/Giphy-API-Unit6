@@ -56,7 +56,7 @@ $(document).ready(function () {
 
     //   var x = $(this).attr("data-name");
 
-    var queryURL = "http://www.omdbapi.com/?i=tt3896198&apikey=a4ddc03d&t=" + x;
+    var queryURL = "https://www.omdbapi.com/?i=tt3896198&apikey=a4ddc03d&t=" + x;
 
 
     $.ajax({
